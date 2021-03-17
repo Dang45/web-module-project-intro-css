@@ -93,6 +93,19 @@ table {
     margin-bottom: 20px;
   }
 
+ /* mouse over link */
+    #Plan:hover {
+    color: black;
+  }
+  
+  #Learn:hover {
+      color:black
+  } 
+
+  #Get:hover {
+      color: black;
+  }
+  
 .intro {
     display: inline-block;
     margin: 5% 10% 0% 10%;
@@ -124,16 +137,27 @@ table {
     margin-bottom: 20px;
   }
 
+.middle:hover {
+    background-color:#5ED3EB; 
+}
   .middleicon img {
     height:100px;
     width: 100px;
     
   }
   
+ .middleicon:hover {
+     background-color: #FF764E;
+ }
+  
   .finalicon img {
     height: 100px;
     width: 100px;
   }
+
+ .finalicon:hover {
+     background-color: #FFCD69;
+ } 
   
   #footerplan {
     margin: 5% 5% 10% 10%;

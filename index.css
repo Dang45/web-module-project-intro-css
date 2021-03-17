@@ -23,11 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
 body {
 	line-height: 1;
 }
@@ -123,8 +119,26 @@ table {
   h1 {
     font-size: 65px;
     font-family: 'Chelsea Market', cursive;
+    animation-duration: 3s;
+    animation-name: slidein;  
   }
   
+h2 {
+    animation-duration: 6s;
+    animation-name: slidein;
+}
+    
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+    
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
   p{
     font-size: 15px;
   }

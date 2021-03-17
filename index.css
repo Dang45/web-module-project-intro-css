@@ -1,0 +1,130 @@
+* {
+    font-size: 15px;
+  }
+  
+  body {
+      padding: 0;
+      margin: 0;
+      font-family: 'Roboto Mono', monospace;
+      font-weight: 300;
+      text-align: center;
+  }
+  
+  #Plan {
+      margin: 5% 5% 10% 10%;
+      padding: 10px 40px 10px 40px;
+      display: inline-block;
+      border-radius: 20px;
+      color: white;
+      margin-bottom:0px;
+      text-decoration: none;
+      background: #FF764E;
+      margin-bottom: 20px;
+  }
+  
+  #Learn {
+    display: inline-block;
+    margin: 5% 5% 10% 10%;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    text-decoration:none;
+    border-radius: 20px;
+    background: #5ED3EB;
+    margin-bottom: 20px;
+  }
+  
+  #Get {
+    display: inline-block;
+    margin: 5% 5% 10% 10%;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    text-decoration:none;
+    border-radius: 20px;
+    background: #FFCD69;
+    margin-bottom: 20px;
+  }
+
+.intro {
+    display: inline-block;
+    margin: 5% 10% 0% 10%;
+}
+
+
+  .intro img {
+      max-height: 25%;
+      max-width: 25%;
+      border-radius: 50%;
+      float: left;
+
+  }
+  
+  h1 {
+    font-size: 65px;
+    font-family: 'Chelsea Market', cursive;
+  }
+  
+  p{
+    font-size: 15px;
+  }
+  
+  .middle {
+    color: white;
+    background: #DDB9A3;
+    margin: 5% 5% 10% 10%;
+    padding: 10px 40px 10px 40px;
+    margin-bottom: 20px;
+  }
+
+  .middleicon img {
+    height:100px;
+    width: 100px;
+    
+  }
+  
+  .finalicon img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  #footerplan {
+    margin: 5% 5% 10% 10%;
+    padding: 10px 40px 10px 40px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    margin-bottom:0px;
+    text-decoration: none;
+    background: #FF764E;
+    margin-bottom: 20px;
+  }
+  
+  #footerlearn {
+    display: inline-block;
+    margin: 5% 5% 10% 10%;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    text-decoration:none;
+    border-radius: 20px;
+    background: #5ED3EB;
+    margin-bottom: 20px;
+   }
+  
+  #footerget {
+    display: inline-block;
+    margin: 5% 5% 10% 10%;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    text-decoration:none;
+    border-radius: 20px;
+    background: #FFCD69;
+    margin-bottom: 20px;
+  }
+  
+  footer img {  
+    height: 300px;
+    width: 100%;
+  }
+
+  footer div {
+    background: #F9E7DC
+  }
